@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-slim
+FROM openjdk:23-jdk
 VOLUME /tmp
 EXPOSE 8080
 ADD target/*.jar app.jar
